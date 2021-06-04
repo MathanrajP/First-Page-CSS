@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: lightcyan;
+  font-size: 1.25rem;
+}
+h1 {
+  color: crimson;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.375rem;
+  margin: 0;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.scroll {
+  height: 100px;
+  width: 100%;
+  background-color: cyan;
+  position: fixed;
+}
+.scroll-things {
+  height: 100px;
+  width: 600px;
+  position: fixed;
+  right: 0;
+}
+.scroll-things :hover {
+  color: blue;
+}
+.scroll-icon {
+  height: 50px;
+  width: 50px;
+}
+.top-container {
+  padding-top: 150px;
+}
+.icon {
+  height: 300px;
+  width: 300px;
+}
+.details img, p {
+    display: inline-block;
+}
+.details-icon {
+  height: 50px;
+  width: 50px;
+}
